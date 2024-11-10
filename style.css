@@ -1,6 +1,10 @@
-.hellotext{
-    color: blueviolet;
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
-#container{
-    background-color: aqua;
+#navbar  ul{
+    display: flex;
+  justify-content: space-between;
+   
 }
