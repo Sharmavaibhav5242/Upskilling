@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Netflix - Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <div class="navbar">
+        <div>
+            <img src="https://about.netflix.com/images/logo.png" alt="Netflix" height="50">
+        </div>
+        <div>
+            <span>Home</span>
+            <a href="#">TV Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">New & Popular</a>
+            <a href="#">My List</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div>
+            <h1>THE </h1>
+            <h1><span>BATMAN</span></h1>
+           </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h2>Trending Now</h2>
+        <div class="row">
+            <!-- Movie Images (Add event listeners to show descriptions and play button) -->
+            <img class="movie" src="./junglebook.jpg" alt="Show 1" data-title="Jungle Book" data-description="The Jungle Book is an adventure film..." data-play-url="https://www.netflix.com/watch/12345678">
+            <img class="movie" src="dark.jpg" alt="Show 1" data-title="Jungle Book" data-description="The Jungle Book is an adventure film..." data-play-url="https://www.netflix.com/watch/12345678">
+            <img class="movie" src="./lucy.jpg" alt="Show 2" data-title="Show 2" data-description="Description for Show 2" data-play-url="https://www.netflix.com/watch/23456789">
+            <img class="movie" src="spiderman.jpg" alt="Show 2" data-title="Show 2" data-description="Description for Show 2" data-play-url="https://www.netflix.com/watch/23456789">
+            <img class="movie" src="matrix.jpg" alt="Show 2" data-title="Show 2" data-description="Description for Show 2" data-play-url="https://www.netflix.com/watch/23456789">
+            <img class="movie" src="avenger.jpg" alt="Show 2" data-title="Show 2" data-description="Description for Show 2" data-play-url="https://www.netflix.com/watch/23456789">
+            <img class="movie" src="devdas.jpg" alt="Show 3" data-title="Show 3" data-description="Description for Show 3" data-play-url="https://www.netflix.com/watch/34567890">
+        </div>
+        <br>
+
+        <h2>Top 10 in Your Country</h2>
+        <div class="row">
+            <img class="movie" src="./elevation.webp" alt="Show 4" data-title="Show 4" data-description="Description for Show 4" data-play-url="https://www.netflix.com/watch/45678901">
+            <img class="movie" src="./captain.jpg" alt="Show 5" data-title="Show 5" data-description="Description for Show 5" data-play-url="https://www.netflix.com/watch/56789012">
+            <img class="movie" src="./resident.jpg" alt="Show 6" data-title="Show 6" data-description="Description for Show 6" data-play-url="https://www.netflix.com/watch/67890123">
+        </div>
+
+        <!-- Movie Description & Play Button (Initially hidden) -->
+        <div id="movie-info" class="movie-info" style="display: none;">
+            <h3 id="movie-title"></h3>
+            <p id="movie-description"></p>
+            <button id="play-button" class="btn btn-primary">Play</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>2024 Netflix, Inc.</p>
+    </footer>
+
+    
+</body>
+</html>
