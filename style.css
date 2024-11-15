@@ -37,3 +37,16 @@
     background-position: center;
     background-size: cover;
    } 
+   #shadow{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    margin-left: 40%;
+    margin-top: 20%;
+    box-shadow: 10px 5px 10px 1px gray;
+    /* horizontal vertical blur spread color  */
+   }
+   .Textshadow{
+    text-shadow: 5px 5px 5px red;
+   }
