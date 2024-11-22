@@ -50,3 +50,23 @@
    .Textshadow{
     text-shadow: 5px 5px 5px red;
    }
+   .maincontent div{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+   }
+   .maincontent{
+    padding: 10px;
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fill),300px;
+    justify-content: center;
+    gap: 20px;
+   }
+   @media(max-width:450px;){
+    .
+   }
+   
+    
+   

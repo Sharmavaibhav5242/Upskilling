@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #141414;
-    color: rgb(217, 10, 10);
+    color: rgb(244, 6, 6);
 }
 
 /* Navbar Styling */
@@ -31,7 +31,7 @@ body {
 
 /* Hero Section Styling */
 .hero {
-    position: relative;
+    position: relative; 
     background-image: url('WhatsApp\ Image\ 2024-11-13\ at\ 16.26.27_a4269fb7.jpg');
     background-size: cover;
     background-position: center;
