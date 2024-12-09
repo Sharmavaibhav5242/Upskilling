@@ -1,0 +1,10 @@
+1995 by Brandon Eich-
+Was made in 10 days and named earlier as Mocha. 
+JavaScript was originally registered as ECMAScript-European Computer Manufacturers Association.
+current version es13.
+es6 version was released in 2015, and made JavaScript popular.
+JavaScript is an scripting language.
+and is a client side language.
+but after 2008 it becomes server side backend language.
+JavaScript is an client side server side scripting language.
+JavaScript is light weighted language.
