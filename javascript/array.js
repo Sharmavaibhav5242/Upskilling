@@ -28,28 +28,28 @@ function arr(){
 
     let arr3=[3,5,2,4,9,7,8,6]
 
-    // let ans=arr3.slice(0,-1)
-    // document.write(ans)
+    let ans=arr3.slice(0,-1)
+    document.write(ans)
 
-    //  arr3.splice(2,0,15) // first write index no,then no. of indexes want to delete if not want to delete then put 0, then put the value that wanted to be inserted
-    //  document.write(arr3)
+     arr3.splice(2,0,15) // first write index no,then no. of indexes want to delete if not want to delete then put 0, then put the value that wanted to be inserted
+     document.write(arr3)
 
-    // let ans=arr3.filter(function(num){
-    //     return num%2==0;
+    let ans=arr3.filter(function(num){
+        return num%2==0;
 
-    // })
+    })
 
-    // console.log(ans)
+    console.log(ans)
 
     // let ans=arr3.forEach(function(num){
     //     console.log(num*2);
         
     // })
 
-    for(let i of arr3){
-        console.log(i);
+    // for(let i of arr3){
+        // console.log(i);
         
-    }
+    // }
 
 
 }
