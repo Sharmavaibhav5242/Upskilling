@@ -1,7 +1,7 @@
 function arr(){
-    let fruits=["Apple","Mango","Banana","Grapes"]
+    // let fruits=["Apple","Mango","Banana","Grapes"]
     // fruits.pop(); //removes last element (Grapes)
-    // fruits.pop(); //removes second lasr (Banana)
+    // fruits.pop(); //removes second last (Banana)
 
     // let ans=fruits.push("Orange","Pineapple")
     // document.write(fruits) //updated array
@@ -26,20 +26,20 @@ function arr(){
     // let ans=arr1.sort().reverse()
     // document.write(ans) //gives in decending order
 
-    let arr3=[3,5,2,4,9,7,8,6]
+    // let arr3=[3,5,2,4,9,7,8,6]
 
-    let ans=arr3.slice(0,-1)
-    document.write(ans)
+    // let ans=arr3.slice(0,-1)
+    // document.write(ans)
 
-     arr3.splice(2,0,15) // first write index no,then no. of indexes want to delete if not want to delete then put 0, then put the value that wanted to be inserted
-     document.write(arr3)
+    //  arr3.splice(2,0,15) // first write index no,then no. of indexes want to delete if not want to delete then put 0, then put the value that wanted to be inserted
+    //  document.write(arr3)
 
-    let ans=arr3.filter(function(num){
-        return num%2==0;
+    // let ans=arr3.filter(function(num){
+        // return num%2==0;
 
-    })
+    // })
 
-    console.log(ans)
+    // console.log(ans)
 
     // let ans=arr3.forEach(function(num){
     //     console.log(num*2);
