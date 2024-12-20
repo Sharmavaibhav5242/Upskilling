@@ -28,3 +28,19 @@ console.log(student);
 
 student.welcome();
 console.log(student.fruits[2])
+
+// destructuring OF OBJECT
+// definition
+// destructuring is a way to unpack values from objects into variables.
+
+let student={
+    name:"Vaibhav",
+    age: 20,
+    city:"Bhopal",
+}
+
+const {name,age,city}=student;
+
+console.log(city);
+
+
