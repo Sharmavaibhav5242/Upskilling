@@ -16,4 +16,62 @@ let submitt=()=>{
     errname.style.color="red";
     return false;
    }
+   else if(isNaN(number)){
+      errnumber.innerHTML="Please enter a valid number";
+      errnumber.style.color="red";
+      return false;
+   }
+   else if(number==="")
+   {
+      errnumber.innerHTML="Please enter number";
+      errnumber.style.color="red";
+      return false;
+   }
+   else if(number.length!=10)
+   {
+      errnumber.innerHTML="Please enter valid number of 10 digits";
+      errnumber.style.color="red";
+      return false;
+   }
+   else if(!(email.includes('@'))&& (email.includes('.com')))
+   {
+         erremail.innerHTML="Please enter a valid email";
+         erremail.style.color="red";
+         return false;
+   }
+   else if(email===""){
+      erremail.innerHTML="Please enter email";
+      erremail.style.color="red";
+      return false;
+   }
+   else if(password===""){
+      errpassword.innerHTML="Enter password";
+      errpassword.style.color="red";
+      return false;
+   }
+   else if(confirm===password){
+      return true;
+   }
+   else if(
+      !(
+         password.match(/[1234567890]/) &&
+         password.match(/[!@#$%^&*()]/) &&
+         password.match(/[a-z]/) &&
+         password.match(/[A-Z]/)
+      )
+   )
+   {
+      errpassword.innerHTML="Enter a strong password";
+      errpassword.style.color="red";
+      return false;
+   }
+   else{
+      errconfirm.innerHTML="Password does not match";
+      errconfirm.style.color="red";
+      return false;
+   }
+   
 }
+// focus()
+// error should be in placeholder
+// if pass should not match the pssword should get removed automatically and focus should be there.
