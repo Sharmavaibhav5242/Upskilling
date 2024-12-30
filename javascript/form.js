@@ -14,6 +14,7 @@ let submitt=()=>{
    if(name===""){
     errname.innerHTML="Please enter your name";
     errname.style.color="red";
+    document.querySelector("#name").placeholder="Enter name please";
     return false;
    }
    else if(isNaN(number)){
@@ -67,11 +68,12 @@ let submitt=()=>{
    }
    else{
       errconfirm.innerHTML="Password does not match";
+      document.querySelector("#password").value="";
+      document.querySelector("#password").focus();
       errconfirm.style.color="red";
       return false;
    }
    
 }
-// focus()
-// error should be in placeholder
-// if pass should not match the pssword should get removed automatically and focus should be there.
+
+
